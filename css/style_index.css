@@ -1,0 +1,110 @@
+* {
+    font-family: sans-serif;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    
+}
+
+.container-fluid {
+    display: inline-flex;
+    background-color: #f8f8f8;
+    height: 60px;
+    width: 100vw;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo-item {
+    margin-left: 8vw;
+    width: 87px;
+    height: 50px;
+}
+
+.item-login {
+    position: absolute;
+    right: 135px;
+    width: 100px;
+    margin: 10px;
+}
+.item-login /*botão*/
+{
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #EBB70C;
+}
+.item-cad {
+    position: absolute;
+    right: 280px;
+    width: 140px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.item-cad /*botão*/
+{
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    background-color:#391702;
+}
+.item-cad a, .item-login a {
+    text-decoration: none;
+    color: white;
+}
+.btn-acompanhar /*botão*/
+{
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #EBB70C;
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+}
+.btn-denuncia /*botão*/
+{
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    background-color:#ac3829;
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    border: 1px solid #ac3829;
+}
+.container {
+    border-radius: 12px;
+    padding: 20px;
+}
+
+/*imagens*/
+#noticia {
+width: 400px;
+border-radius: 12px;
+}
+
+#news {
+    font-weight: bolder;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+#rodape {
+    text-align: center;
+    font-size: 12px;
+}
