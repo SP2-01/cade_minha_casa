@@ -5,7 +5,10 @@
     padding: 0px;
     overflow-x: hidden;
 }
+/* CONFIGURAÇÕES DO HEADER */
 
+
+/* background do header e display */
 .container {
     display: flex;
     background-color: #ffffff;
@@ -21,15 +24,18 @@
     height: 50px;
 }
 
-.item-login {
+.item-login /* botão login */ {
+
+    /* Posição do botão e tamanho */
+
     position: relative;
     right: 135px;
     width: 100px;
     margin: 10px;
-}
-.item-login /*botão*/
-{
     padding: 10px;
+    
+    /* Configurações de cor e fonte */
+
     border-radius: 10px;
     color: white;
     font-weight: 700;
@@ -37,17 +43,19 @@
     text-transform: uppercase;
     background-color: #EBB70C;
 }
-.item-cad {
+.item-cad /* botão cadastro */ {
+
+    /* Posição do botão e tamanho */
+
     position: relative;
     right: 150px;
     width: 180px;
     margin: 10px;
-    border: 1px solid black;
-}
-
-.item-cad /*botão*/
-{
     padding: 10px;
+    
+    /* Configurações de cor e fonte */
+
+    border: 1px solid black;
     border-radius: 10px;
     color: white;
     font-weight: 700;
@@ -59,6 +67,8 @@
     text-decoration: none;
     color: white;
 }
+
+/* FIM DO HEADER */
 body 
 {
     height: 100vh;
@@ -73,13 +83,14 @@ body
 
 
 
+/* !!!! CONFIGURAÇÕES PARA PÁGINA LOGIN  !!!! */
 
 main#login {
     display: flex;
     border-radius: 30px; 
     padding:0;
     
-    height: 500px;
+    height: 450px;
     width: 712px;
                 
     margin-top: 90px;
@@ -91,45 +102,46 @@ main#login {
             
     background-color: #ffffff;
     box-shadow: rgb(99, 99, 99) 0px 0px 4vh;
-    }
+}
      
                                                          
-                                        /*  CONFIGURAÇÕES DO FORMULÁRIO (Padão para todas as páginas) */
-    
-    main#login form h1 {
-        position: relative;
-        left: 210px;
-        top: 45px;
-    }
 
+main#login form h1 {
+    position: relative;
+    left: 210px;
+    top: 45px;
+}
+
+/* !!!! FIM DAS CONFIGURAÇÕES PARA PÁGINA LOGIN  !!!! */
+
+
+/* !!!! CONFIGURAÇÕES PARA PÁGINA CADASTRO  !!!! */
 
 main#cadastro {
 
-/* propriedades do bloco amarelo página cadastro */
-            display: flex;
-            border-radius: 30px; 
-            padding:0;
 
-/* vc pode alterar a altura e largura do bloco amarelo aqui  */
+    display: flex;
+    border-radius: 30px; 
+    padding:0;
 
-            height: 800px;
-            width: 712px;
+
+
+    height: 740px;
+    width: 712px;
             
-/*  pode mudar o posicionamento do bloco em relação a tela, o levar para o top,bottom, right ou left...*/
+
         
-            margin-top: 90px;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: 100px;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
            
-/* cor do bloco */
+
         
-            background-color: #ffffff;
-            box-shadow: rgb(99, 99, 99) 0px 0px 4vh;
+    background-color: #ffffff;
+    box-shadow: rgb(99, 99, 99) 0px 0px 4vh;
 }
- 
-                                                     
-                                    /*  CONFIGURAÇÕES DO FORMULÁRIO (Padão para todas as páginas) */
+
 
 main#cadastro form h1 {
     position: relative;
@@ -137,44 +149,55 @@ main#cadastro form h1 {
     top: 45px;
 }
 
+/* !!!! FIM DAS CONFIGURAÇÕES PARA PÁGINA CADASTRO  !!!! */
+
+
+/* !!!! CONFIGURAÇÕES PARA PÁGINA DENÚNCIA  !!!! */
+
 main#denuncia {
 
-    /* propriedades do bloco amarelo página cadastro */
-                display: flex;
-                border-radius: 30px; 
-                padding:0;
     
-    /* vc pode alterar a altura e largura do bloco amarelo aqui  */
+    display: flex;
+    border-radius: 30px; 
+    padding:0;
     
-                height: 800px;
-                width: 712px;
+
+    
+    height: 740px;
+    width: 712px;
                 
-    /*  pode mudar o posicionamento do bloco em relação a tela, o levar para o top,bottom, right ou left...*/
+
             
-                margin-top: 90px;
-                margin-left: auto;
-                margin-right: auto;
-                margin-bottom: 100px;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
                
-    /* cor do bloco */
+
             
-                background-color: #ffffff;
-                box-shadow: rgb(99, 99, 99) 0px 0px 4vh;
-    }
+    background-color: #ffffff;
+    box-shadow: rgb(99, 99, 99) 0px 0px 4vh;
+}
      
                                                          
-                                        /*  CONFIGURAÇÕES DO FORMULÁRIO (Padão para todas as páginas) */
+
     
-    main#denuncia form h1 {
+main#denuncia form h1 {
         position: relative;
         left: 255px;
         top: 45px;
-    }
+}
+
+/* !!!! FIM DAS CONFIGURAÇÕES PARA PÁGINA DENÚNCIA  !!!! */
+
+
+/* Configurações gerais dos inputs do site */
 
 form input
 {
     position: relative;
     align-items: center;
+    padding-left: 50px;
 
     border-radius: 20px;
     border: solid #cfcfcf 1px;
@@ -183,12 +206,16 @@ form input
     height: 54px;
 
     top: 80px;
-    left: 70px;
+    left: 50px;
 }
+
 
 .buttonconfirm {
     color: white;
-    height: 150px;
+    height: 100px;
+    width: 615px;
+    padding-left: 0px;
+
     border-radius: 40px;
     background-color: #60C571;
     
@@ -202,7 +229,10 @@ form input
 
 #buttondenuncia {
     color: white;
-    height: 150px;
+    height: 100px;
+    width: 615px;
+    padding-left: 0px;
+
     border-radius: 40px;
     background-color: #c56060;
     
@@ -210,11 +240,13 @@ form input
     border-right: solid #4A0B0B 1px;
     border-left: solid #4A0B0B 1px;
 
-    font-weight: 700;
+    font-weight: 600;
     font-size: 30px;
 }
 
-
+.buttonconfirm, #buttondenuncia, .item-login, .item-cad :hover {
+    cursor: pointer;
+}
 
 
 
