@@ -88,15 +88,15 @@ body
 main#login {
     display: flex;
     border-radius: 30px; 
-    padding:0;
+    padding: 0px;
     
-    height: 450px;
-    width: 712px;
+    height: 41.7vh;
+    width: 37.1vw;
                 
-    margin-top: 90px;
+    margin-top: 7vh;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 100px;
+    margin-bottom: 8vh;
                
     
             
@@ -107,9 +107,10 @@ main#login {
                                                          
 
 main#login form h1 {
+    margin-bottom: 3vh;
     position: relative;
-    left: 210px;
-    top: 45px;
+    left: 10.8vw;
+    top: 4vh;
 }
 
 /* !!!! FIM DAS CONFIGURAÇÕES PARA PÁGINA LOGIN  !!!! */
@@ -121,20 +122,21 @@ main#cadastro {
 
 
     display: flex;
-    border-radius: 30px; 
-    padding:0;
+    border-radius: 3vh; 
+    padding: 0;
 
 
-
-    height: 740px;
-    width: 712px;
+    min-height: 37vh;
+    min-width: 19vw;
+    height: 70vh;
+    width: 37vw;
             
 
         
-    margin-top: 90px;
+    margin-top: 7vh;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 100px;
+    margin-bottom: 8vh;
            
 
         
@@ -145,8 +147,8 @@ main#cadastro {
 
 main#cadastro form h1 {
     position: relative;
-    left: 240px;
-    top: 45px;
+    left: 12.8vw;
+    top: 4vh;
 }
 
 /* !!!! FIM DAS CONFIGURAÇÕES PARA PÁGINA CADASTRO  !!!! */
@@ -158,23 +160,24 @@ main#denuncia {
 
     
     display: flex;
-    border-radius: 30px; 
-    padding:0;
-    
+    border-radius: 3vh; 
+    padding: 0;
 
-    
-    height: 740px;
-    width: 712px;
-                
 
+    min-height: 37vh;
+    min-width: 19vw;
+    height: 70vh;
+    width: 37vw;
             
-    margin-top: 90px;
+
+        
+    margin-top: 7vh;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 100px;
-               
+    margin-bottom: 8vh;
+           
 
-            
+        
     background-color: #ffffff;
     box-shadow: rgb(99, 99, 99) 0px 0px 4vh;
 }
@@ -183,9 +186,9 @@ main#denuncia {
 
     
 main#denuncia form h1 {
-        position: relative;
-        left: 255px;
-        top: 45px;
+    position: relative;
+    left: 12.8vw;
+    top: 4vh;
 }
 
 /* !!!! FIM DAS CONFIGURAÇÕES PARA PÁGINA DENÚNCIA  !!!! */
@@ -197,26 +200,28 @@ form input
 {
     position: relative;
     align-items: center;
-    padding-left: 50px;
+    padding-left: 3.8vw;
 
-    border-radius: 20px;
+    border-radius: 7px;
     border: solid #cfcfcf 1px;
 
-    width: 560px;
-    height: 54px;
+    width: 28vw;
 
-    top: 80px;
-    left: 50px;
+    min-height: 5vh;
+    height: 5.5vh;
+
+    top: 9%;
+    left: 7%;
 }
 
 
 .buttonconfirm {
     color: white;
-    height: 100px;
-    width: 615px;
+    height: 8vh;
+    width: 32vw;
     padding-left: 0px;
 
-    border-radius: 40px;
+    border-radius: 1vw;
     background-color: #60C571;
     
     border-bottom: solid #3F7A49 3px;
@@ -224,27 +229,27 @@ form input
     border-left: solid #3F7A49 1px;
 
     font-weight: 700;
-    font-size: 30px;
+    font-size: 15px;
 }
-
+   
 #buttondenuncia {
     color: white;
-    height: 100px;
-    width: 615px;
+    height: 8vh;
+    width: 32vw;
     padding-left: 0px;
 
-    border-radius: 40px;
+    border-radius: 1vw;
     background-color: #c56060;
     
     border-bottom: solid #4A0B0B 3px;
     border-right: solid #4A0B0B 1px;
     border-left: solid #4A0B0B 1px;
 
-    font-weight: 600;
-    font-size: 30px;
+    font-weight: 700;
+    font-size: 15px;
 }
 
-.buttonconfirm, #buttondenuncia, .item-login, .item-cad :hover {
+.buttonconfirm, #buttondenuncia, .item-login, .item-cad  :hover {
     cursor: pointer;
 }
 
