@@ -1,0 +1,235 @@
+* {
+    font-family: sans-serif;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    background-color: #ffffff;
+    height: 60px;
+    width: 100vw;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo-item {
+    margin-left: 8vw;
+    width: 87px;
+    height: 50px;
+}
+
+.item-login {
+    position: relative;
+    right: 135px;
+    width: 100px;
+    margin: 10px;
+}
+.item-login /*botão*/
+{
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #EBB70C;
+}
+.item-cad {
+    position: relative;
+    right: 150px;
+    width: 180px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.item-cad /*botão*/
+{
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    background-color:#391702;
+}
+.item-cad a, .item-login a {
+    text-decoration: none;
+    color: white;
+}
+body 
+{
+    height: 100vh;
+    background-image: url(./image/fundo.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    background-color: #f8f8f8;
+    
+}
+
+
+
+
+
+main#login {
+    display: flex;
+    border-radius: 30px; 
+    padding:0;
+    
+    height: 500px;
+    width: 712px;
+                
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+               
+    
+            
+    background-color: #ffffff;
+    box-shadow: rgb(99, 99, 99) 0px 0px 4vh;
+    }
+     
+                                                         
+                                        /*  CONFIGURAÇÕES DO FORMULÁRIO (Padão para todas as páginas) */
+    
+    main#login form h1 {
+        position: relative;
+        left: 210px;
+        top: 45px;
+    }
+
+
+main#cadastro {
+
+/* propriedades do bloco amarelo página cadastro */
+            display: flex;
+            border-radius: 30px; 
+            padding:0;
+
+/* vc pode alterar a altura e largura do bloco amarelo aqui  */
+
+            height: 800px;
+            width: 712px;
+            
+/*  pode mudar o posicionamento do bloco em relação a tela, o levar para o top,bottom, right ou left...*/
+        
+            margin-top: 90px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 100px;
+           
+/* cor do bloco */
+        
+            background-color: #ffffff;
+            box-shadow: rgb(99, 99, 99) 0px 0px 4vh;
+}
+ 
+                                                     
+                                    /*  CONFIGURAÇÕES DO FORMULÁRIO (Padão para todas as páginas) */
+
+main#cadastro form h1 {
+    position: relative;
+    left: 240px;
+    top: 45px;
+}
+
+main#denuncia {
+
+    /* propriedades do bloco amarelo página cadastro */
+                display: flex;
+                border-radius: 30px; 
+                padding:0;
+    
+    /* vc pode alterar a altura e largura do bloco amarelo aqui  */
+    
+                height: 800px;
+                width: 712px;
+                
+    /*  pode mudar o posicionamento do bloco em relação a tela, o levar para o top,bottom, right ou left...*/
+            
+                margin-top: 90px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 100px;
+               
+    /* cor do bloco */
+            
+                background-color: #ffffff;
+                box-shadow: rgb(99, 99, 99) 0px 0px 4vh;
+    }
+     
+                                                         
+                                        /*  CONFIGURAÇÕES DO FORMULÁRIO (Padão para todas as páginas) */
+    
+    main#denuncia form h1 {
+        position: relative;
+        left: 255px;
+        top: 45px;
+    }
+
+form input
+{
+    position: relative;
+    align-items: center;
+
+    border-radius: 20px;
+    border: solid #cfcfcf 1px;
+
+    width: 560px;
+    height: 54px;
+
+    top: 80px;
+    left: 70px;
+}
+
+.buttonconfirm {
+    color: white;
+    height: 150px;
+    border-radius: 40px;
+    background-color: #60C571;
+    
+    border-bottom: solid #3F7A49 3px;
+    border-right: solid #3F7A49 1px;
+    border-left: solid #3F7A49 1px;
+
+    font-weight: 700;
+    font-size: 30px;
+}
+
+#buttondenuncia {
+    color: white;
+    height: 150px;
+    border-radius: 40px;
+    background-color: #c56060;
+    
+    border-bottom: solid #4A0B0B 3px;
+    border-right: solid #4A0B0B 1px;
+    border-left: solid #4A0B0B 1px;
+
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
