@@ -1,0 +1,220 @@
+* {
+    font-family: sans-serif;
+    width: 100vw;
+    margin: 0vh;
+    padding: 0vh;
+    border: 0vh;
+    overflow-x: hidden;
+}
+
+
+body {
+   height:100vh;
+   color:black;
+   
+}
+
+/*header*/
+
+.container-fluid {
+    display: inline-flex;
+    background-color: #f8f8f8;
+    height: 60px;
+    width: 100vw;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo-item {
+    margin-left: 8vw;
+    width: 87px;
+    height: 50px;
+}
+
+.item-login {
+    position: absolute;
+    right: 135px;
+    width: 100px;
+    margin: 10px;
+}
+.item-login /*botão*/
+{
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #EBB70C;
+}
+.item-cad {
+    position: absolute;
+    right: 280px;
+    width: 140px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.item-cad /*botão*/
+{
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    background-color:#391702;
+}
+.item-cad a, .item-login a {
+    text-decoration: none;
+    color: white;
+}
+.item-login :hover{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.item-cad :hover {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+/*fim do header */
+
+/*corpo*/
+
+#corpo {
+     display: block;
+     float:left;
+     width:20%;
+     height:110%;
+     margin-bottom: 0;
+   
+    
+     background-color: #f8f8f8;
+}
+
+#junto{
+    display:inline-block;
+    position: relative;
+    width: 100%;
+    margin-top:5vh;
+}
+
+#junto ul {
+   position: relative;
+   width: 100%;
+   margin: 0.5vh;
+margin-top: 4vh;
+}
+
+#junto ul li {
+   position: relative;
+   width: 90%;
+   border-bottom: 2px solid #606060;
+   border-top: 2px solid #606060;
+   height: 7vh;
+   vertical-align: middle;
+    
+  
+    
+    padding: 1vh;;
+  
+    color: black;
+    text-align: center;
+
+    
+    
+}
+
+#junto li:hover {
+    color: #000000;
+    text-decoration:underline;
+    font-weight: bolder;
+    background-color: #EBB70C;
+   
+}
+
+
+/*lateal*/
+
+aside#lateral {
+    display:block;
+    float:rigth;
+    width:74%;
+    height:100%;
+    margin-top:4vh;
+    margin-left:3vh;
+    margin-right:-3vh;
+}
+
+.aside#lateral h1 {
+  text-align: center;
+}
+
+.box_denuncia{
+    display: inline-block;
+    position: relative;
+    width: 45vh;
+    padding:3vh;
+    margin:2vh;
+}
+
+.inf {
+    position:relative;
+    width: 100%;
+    height: 45vh;
+}
+
+.inf h4 {
+    font-size:15px;
+    position: relative;
+    width: 100%;
+}
+
+/*rodapé*/
+
+#rodape {
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
